@@ -1,0 +1,96 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "~bootstrap/scss/bootstrap";
+
+// Chartist
+// @import "~chartist";
+
+#valueaxischartdiv,
+#changingcolorchartdiv,
+#zoomablechartdiv {
+    width: 100%;
+    height: 500px;
+    font-size: 11px;
+}
+
+#smoothchartdiv,
+#differentcolorchartdiv {
+    width: 100%;
+    height: 400px;
+    font-size: 11px;
+}
+
+#valueaxischartdiv,
+#changingcolorchartdiv,
+#zoomablechartdiv {
+    width: 100%;
+    height: 500px;
+    font-size: 11px;
+}
+
+#smoothchartdiv,
+#differentcolorchartdiv {
+    width: 100%;
+    height: 400px;
+    font-size: 11px;
+}
+
+.table td,
+.table th {
+    border-top: 1px solid #f1f3f1;
+}
+.table-controls > li > a i {
+    color: #d3d3d3;
+}
+
+.table td,
+.table th {
+    border-top: 1px solid #f1f3f1;
+}
+
+.table-controls > li > a i {
+    color: #d3d3d3;
+}
+
+i.fa-arrow-down.service-down {
+    background-color: #fbccdd !important;
+    color: #f8538d !important;
+}
+i.fa-arrow-up.service-up {
+    background-color: #b6fff1 !important;
+    color: #1abc9c !important;
+}
+
+.badge-vuln {
+    min-width: 100px;
+}
+
+.badge-critical {
+    color: #fff;
+    background-color: #cc0000 !important;
+}
+
+.badge-critical:hover {
+    background-color: #9a1414 !important;
+}
+
+.badge-eol {
+    color: #fff;
+    background-color: #9c4b4b !important;
+    box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.badge-eol:hover {
+    background-color: #562b2b !important;
+}
+
+.widget-stats-title {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #3f4257 !important;
+}
